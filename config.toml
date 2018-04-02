@@ -3,10 +3,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://d-www.emaocc.com/"
 
 # Title of your site
-title = "Academic"
+title = "饿猫CC"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -26,8 +26,8 @@ disqusShortname = ""
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -283,5 +283,39 @@ defaultContentLanguageInSubdir = false
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[Languages.en]
-  languageCode = "en-us"
+#[Languages.en]
+#  languageCode = "en-us"
+
+#################### EMAO Chinese ######################
+[languages.zh]
+  languageCode = "zh-cn"
+
+[[languages.zh.menu.main]]
+  name = "首页"
+  url = "#about"
+  weight = 1
+
+[[languages.zh.menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 2
+
+[[languages.zh.menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[languages.zh.menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+[[languages.zh.menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[languages.zh.menu.main]]
+  name = "联系"
+  url = "#contact"
+  weight = 6
