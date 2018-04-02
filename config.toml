@@ -10,7 +10,7 @@ title = "饿猫CC"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2018 北京自家一坐餐饮管理有限公司"
 
 theme = "academic"
 enableEmoji = true
@@ -22,12 +22,12 @@ paginate = 10
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+## Enable analytics by entering your Google Analytics tracking ID
+#googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = "zh" #CJB: en->zh
+defaultContentLanguageInSubdir = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -50,21 +50,21 @@ defaultContentLanguageInSubdir = true
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "饿猫CC"
+  role = "专业吃货"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "美食 美图 评价 虚似", url = "" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "https://s.gravatar.com/avatar/f5c7267aa9e756f2d079586c16b2a6e8?s=80"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "emaocc@outlook.com"
+  address = "北京市朝阳区广渠路南侧44号"
+#  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+#  phone = "888 888 88 88"
+#  skype = "echo123"
+#  telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
@@ -215,24 +215,24 @@ defaultContentLanguageInSubdir = true
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
+    icon = "weibo"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = ""
 
   [[params.social]]
-    icon = "twitter"
+    icon = "weixin"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = ""
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
+     icon = "qq"
+     icon_pack = "fa"
+     link = ""
+     
   [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/gcushen"
+     icon = "github"
+     icon_pack = "fa"
+     link = ""
 
 
 # Navigation Links
@@ -243,41 +243,41 @@ defaultContentLanguageInSubdir = true
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+#[[menu.main]]
+#  name = "Home"
+#  url = "#about"
+#  weight = 1
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+#[[menu.main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 6
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+## Taxonomies.
+#[taxonomies]
+#  tag = "tags"
+#  category = "categories"
+#  publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
@@ -292,30 +292,35 @@ defaultContentLanguageInSubdir = true
 
 [[languages.zh.menu.main]]
   name = "首页"
-  url = "#about"
+  url = "#home"
   weight = 1
 
-[[languages.zh.menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+#[[languages.zh.menu.main]]
+#  name = "首页"
+#  url = "#about"
+#  weight = 1
+
+#[[languages.zh.menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 2
+
+#[[languages.zh.menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
+
+#[[languages.zh.menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 4
+
+#[[languages.zh.menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 5
 
 [[languages.zh.menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
-[[languages.zh.menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[languages.zh.menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
-
-[[languages.zh.menu.main]]
-  name = "联系"
+  name = "关于"
   url = "#contact"
   weight = 6
