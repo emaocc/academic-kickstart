@@ -228,7 +228,7 @@ defaultContentLanguageInSubdir = false
      icon = "qq"
      icon_pack = "fa"
      link = ""
-     
+
   [[params.social]]
      icon = "github"
      icon_pack = "fa"
